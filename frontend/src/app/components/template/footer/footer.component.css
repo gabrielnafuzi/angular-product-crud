@@ -1,7 +1,7 @@
 .footer {
   position: fixed;
   bottom: 0;
-  
+
   display: flex;
   justify-content: flex-end;
 }
@@ -9,4 +9,15 @@
 .footer > span {
   font-size: 1rem;
   font-weight: 300;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #673ab7;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #472385;
 }
