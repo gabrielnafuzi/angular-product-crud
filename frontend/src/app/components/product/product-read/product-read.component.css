@@ -1,0 +1,26 @@
+div {
+  width: 60%;
+}
+
+table {
+  width: 100%;
+}
+
+.edit > i {
+  color: #5099ec;
+  margin-right: 14px;
+  transition: 0.2s ease;
+}
+
+.edit > i:hover {
+  color: #115fb8;
+}
+
+.delete > i {
+  color: #e35e6b;
+  transition: 0.2s ease;
+}
+
+.delete > i:hover {
+  color: #bb2433;
+}
